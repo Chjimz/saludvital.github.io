@@ -47,6 +47,16 @@
           border-radius: 4px;
           box-sizing: border-box;
         }
+
+        input[type=mail], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
         
         button {
           width: 100%;
@@ -82,21 +92,21 @@
                      <label for="lname">Edad</label>
                   <input type="number" id="lname" name="lastname" placeholder="EDAD">
                   
-                   <label for="lname">Fecha</label>
-                  <input type="date" id="lname" name="lastname" placeholder="FECHA">
+                   <label for="fecha">Fecha</label>
+                  <input type="date" id="fecha" name="lastname" placeholder="FECHA">
                       
-                     <label for="lname">Correo Electronico</label>
-                  <input type="text" id="lname" name="lastname" placeholder="ALGUIEN@EJEMPLO.COM">
-                </div>
+                     <label for="email">Correo Electronico</label>
+                  <input type="mail" id="email" name="lastname" placeholder="ALGUIEN@EJEMPLO.COM">
+              
                
-                     <label for="lname">Teléfono</label>
-                  <input type="number" id="lname" name="lastname" placeholder="TELEFONO">
+                     <label for="telefono">Teléfono</label>
+                  <input type="number" id="telefono" name="lastname" placeholder="TELEFONO">
                
                 
                   
                   <button type="submit" value="submit">ENVIAR</button>
                 </form>
-             
+            </div>
 
 
 
