@@ -1,0 +1,119 @@
+
+header{
+    background-color: aliceblue;
+}
+
+
+body{
+    background: #76b852;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow: hidden;
+
+}
+
+label{
+    margin: 5px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+
+h1{
+    color:green;
+}
+
+button{
+ color: black;
+ background-color: aquamarine;
+ border-color: white;
+ 
+height: 40px;
+width: 90px;
+margin-left: 20px;
+}
+
+
+.form-group label{
+    font-size: 20px;
+    
+    display: flex;
+}
+
+.form-group input, select{
+    outline: none;
+    font-size: 14px;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 10px;
+    height: 42px;
+	margin-left: 2vh;
+    
+    
+	
+
+}
+.textarea{
+    width: 39vh;
+    height: 10vh;
+}
+form .fields .input-field{
+    display: flex;
+    flex-direction: column;
+    margin: 4px 0;
+}
+.input-field label{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    
+}
+.input-field input, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    margin: 8px 0;
+}
+header{
+    display: flex;
+
+}
+
+/*** ESTILOS BOTÓN GROW SKEW ***/
+.ov-btn-grow-skew {
+    background: #ffffff; /* color de fondo */
+    color: black; /* color de fuente */
+    border: 2px solid #1cc98f; /* tamaño y color de borde */
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  .ov-btn-grow-skew:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .ov-btn-grow-skew::after {
+    content: "";
+    background: #1cc98f; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .ov-btn-grow-skew:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
