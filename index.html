@@ -48,7 +48,7 @@
           box-sizing: border-box;
         }
         
-        input[type=submit] {
+        button {
           width: 100%;
           background-color: #4CAF50;
           color: white;
@@ -75,8 +75,8 @@
             <h3>NUEVO EXPEDIENTE</h3>
             
             <div>
-                <form action="/action_page.php">
-                  <label for="fname">Nombre</label>
+              <form name="expediente" netlify>
+                <label for="fname">Nombre</label>
                   <input type="text" id="fname" name="firstname" placeholder="NOMBRE">
               
                      <label for="lname">Edad</label>
@@ -92,13 +92,14 @@
                   <input type="number" id="lname" name="lastname" placeholder="TELEFONO">
                
                 
-                  <input type="submit" value="Submit">
+                  
+                  <button type="submit" value="submit">ENVIAR</button>
                 </form>
               </div>
             
 
 
 
-</form>
+
 </body>
 </html>
