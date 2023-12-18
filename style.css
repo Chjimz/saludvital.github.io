@@ -3,6 +3,9 @@ header{
     background-color: aliceblue;
 }
 
+h3{
+    color: white;
+}
 
 body{
     background: #76b852;  /* fallback for old browsers */
